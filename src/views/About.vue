@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import dummyModule from "@/store/modules/dummy";
+// import dummyModule from "@/store/modules/dummy";
 
 export default {
   // 動態載入store
-  created() {
-    this.$store.registerModule("dummy", dummyModule);
-  }
+  // created() {
+  //   this.$store.registerModule("dummy", dummyModule);
+  // }
 };
 </script>
