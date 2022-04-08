@@ -97,11 +97,11 @@
 6. 複製 config 指令碼到 `includes/firebase.js` 檔案
    ```
    var firebaseConfig = {
-       apiKey: "AIzaSyCA0HP6duCa1t9tJMGQ5WlsJ-vlZzNCOOo",
+       apiKey: "",
        authDomain: "vue-music-c4ffc.firebaseapp.com",
        projectId: "vue-music-c4ffc",
        storageBucket: "vue-music-c4ffc.appspot.com",
-       appId: "1:415472766880:web:dfc59b7716aa5cfaf61ec5"
+       appId: ""
    };
    // Initialize Firebase
    firebase.initializeApp(firebaseConfig);
